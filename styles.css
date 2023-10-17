@@ -10,7 +10,7 @@ html{
 h1{
  
     text-align:center ;
-    display: inline;
+    
     overflow: visible;
     color: black;
     font-family: Poppins;
@@ -19,14 +19,7 @@ h1{
    
 
 }
-#phone{
-    
-    margin-left: 170px;
-    font-family: Poppins;
-    font-weight: 1000;
-    margin-bottom: 500px;
-    
-}
+
 
 .mobdiv {
     display: inline;
@@ -63,9 +56,21 @@ span{
    width: 1200px;
    height: 400px;
    
-    
+   
     border-radius: 50px;
     margin-bottom: 30px;
+}
+.iframe{
+    display: inline;
+    overflow: hidden;
+    
+}
+iframe{
+    
+    height: 397px;
+     width: 544px;
+     overflow: hidden;
+     
 }
 .infoimg{
     
@@ -89,17 +94,22 @@ span{
 #info5{
     background-color: #c1ebf5;
 }
-#card {
+.card {
     float: right;
     
     width: 290px;
     height: 400px;
     border-radius: 10px;
     background: #c2c0c4;
-    
+    font-family: Poppins;
+    font-weight: 1000;
    
    }
    pre{
     font-family: Poppins;
    }
 
+#card2{
+    background-color: #4b3f41;
+    
+}
